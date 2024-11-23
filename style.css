@@ -1,0 +1,46 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #222; 
+    color: #fff; 
+    margin: 0;
+    padding: 20px;
+}
+
+#local {
+    background-color: #333; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+#cities {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #444; 
+}
+
+#cities th, #cities td {
+    border: 1px solid #444;
+    padding: 12px;
+    text-align: left;
+    color: #fff;
+}
+
+#cities th {
+    background-color: #333; 
+}
+
+#cities tr:nth-child(even) {
+    background-color: #333; 
+}
+
+.col1 {
+    width: 10%;
+    text-align: center;
+}
+
+.col2 {
+    width: 45%;
+}
