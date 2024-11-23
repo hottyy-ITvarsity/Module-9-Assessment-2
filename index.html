@@ -54,7 +54,7 @@
         function getUtcTime(){
             var dt = new Date();
             var utcOffset = dt.getTimezoneOffset() * 60000;
-            var utcTime = new Date(dt.getTime() * utcOffset);
+            var utcTime = new Date(dt.getTime() + utcOffset);
             return utcTime.getTime();
         }
 
